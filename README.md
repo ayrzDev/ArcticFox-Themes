@@ -24,4 +24,4 @@
         "installedTimestamp": 1666895868882,
         "preRelease": false
     }
-}```
+}
