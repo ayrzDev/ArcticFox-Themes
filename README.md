@@ -1,6 +1,7 @@
 ### Add
 
-```{
+```php
+{
     "identifier": {
         "id": "ayrz.vscode-theme-arctic-fox",
         "uuid": "9b2c953d-6ad4-46d1-b18e-7e5992d1d8a6"
