@@ -1,6 +1,6 @@
 ### Add
 
-```php
+```json
 {
     "identifier": {
         "id": "ayrz.vscode-theme-arctic-fox",
