@@ -1,0 +1,57 @@
+{
+	"name": "vscode-theme-arctic-fox",
+	"displayName": "Ayrz Themes Dark Theme",
+	"description": "Ayrz Themes based on Ahmet",
+	"version": "2.3.0",
+	"publisher": "Ayrz",
+	"license": "MIT",
+	"galleryBanner": {
+		"color": "#282C34",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	  },
+	  "activationEvents": [
+		"onCommand:extension.myButtonCommand"
+	  ],
+	"main": "./out/extension.js",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"atom",
+		"theme",
+		"dark",
+		"one dark"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Arctic Fox (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/arctic_fox_dark.json"
+			},
+			{
+				"label": "Arctic Fox (Light)",
+				"uiTheme": "vs",
+				"path": "./themes/arctic_fox_light.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "9b2c953d-6ad4-46d1-b18e-7e5992d1d8a6",
+		"publisherId": "1a680e61-b64e-4eff-bbbb-2085b0618f52",
+		"publisherDisplayName": "Ayrz",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1666895868882,
+		"preRelease": false
+	},
+	"dependencies": {
+		"vscode": "^1.1.37"
+	}
+}
