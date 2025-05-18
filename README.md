@@ -34,7 +34,6 @@ Arctic Fox is a modern and readability-focused Visual Studio Code theme offering
    - Dark Orange Flat
    - Dark Purple Flat
    - Dark Yellow Flat
-   - Orange
    - Template Flat
 
 ## Theme Previews
@@ -94,9 +93,6 @@ Below are previews of some of the themes included:
 
 ### Dark Yellow Flat
 ![Dark Yellow Flat](./themes/dark_yellow_flat_preview.png)
-
-### Orange
-![Orange](./themes/orange_preview.png)
 
 ### Template Flat
 ![Template Flat](./themes/template_flat_preview.png)
