@@ -1,57 +1,127 @@
 {
-	"name": "vscode-theme-arctic-fox",
-	"displayName": "Ayrz Themes Dark Theme",
-	"description": "Ayrz Themes based on Ahmet",
-	"version": "2.3.0",
-	"publisher": "Ayrz",
-	"license": "MIT",
-	"galleryBanner": {
-		"color": "#282C34",
-		"theme": "dark"
-	},
+	"name": "vscode-theme-ayrz-arcticfox",
+	"displayName": "ArctixFox Themes",
+	"description": "Modern dark and light themes for Visual Studio Code by Ayrz.",
+	"version": "1.0.1",
+	"publisher": "ayrz",
 	"engines": {
-		"vscode": "^1.0.0"
-	  },
-	  "activationEvents": [
-		"onCommand:extension.myButtonCommand"
-	  ],
-	"main": "./out/extension.js",
+		"vscode": "^1.60.0"
+	},
 	"categories": [
 		"Themes"
 	],
-	"keywords": [
-		"atom",
-		"theme",
-		"dark",
-		"one dark"
-	],
 	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1e1e1e",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ayrzDev/ArcticFox-Themes.git"
+	},
 	"contributes": {
 		"themes": [
 			{
 				"label": "Arctic Fox (Dark)",
 				"uiTheme": "vs-dark",
-				"path": "./themes/arctic_fox_dark.json"
+				"path": "./themes/dark.json"
 			},
 			{
 				"label": "Arctic Fox (Light)",
 				"uiTheme": "vs",
-				"path": "./themes/arctic_fox_light.json"
+				"path": "./themes/light.json"
+			},
+			{
+				"label": "Arctic Fox (Dracula Official)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dracula_official.json"
+			},
+			{
+				"label": "Arctic Fox (GitHub Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/github_dark.json"
+			},
+			{
+				"label": "Arctic Fox (GitHub Light)",
+				"uiTheme": "vs",
+				"path": "./themes/github_light.json"
+			},
+			{
+				"label": "Arctic Fox (Monokai Pro)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai_pro.json"
+			},
+			{
+				"label": "Arctic Fox (Night Owl)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night_owl.json"
+			},
+			{
+				"label": "Arctic Fox (One Dark Pro)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/one_dark_pro.json"
+			},
+			{
+				"label": "Arctic Fox (Palenight)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/palenight.json"
+			},
+			{
+				"label": "Arctic Fox (Solarized Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/solarized_dark.json"
+			},
+			{
+				"label": "Arctic Fox (Solarized Light)",
+				"uiTheme": "vs",
+				"path": "./themes/solarized_light.json"
+			},
+			{
+				"label": "Arctic Fox (Synthwave '84)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/synthwave_84.json"
+			},
+			{
+				"label": "Arctic Fox (Tokyo Night)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tokyo_night.json"
+			},
+			{
+				"label": "Arctic Fox (Dark Orange Flat)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-orange-flat-color-theme.json"
+			},
+			{
+				"label": "Arctic Fox (Dark Lime Flat)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-lime-flat-color-theme.json"
+			},
+			{
+				"label": "Arctic Fox (Dark Orange)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-orange-color-theme.json"
+			},
+			{
+				"label": "Arctic Fox (Dark Purple Flat)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-purple-flat-color-theme.json"
+			},
+			{
+				"label": "Arctic Fox (Dark Yellow Flat)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-yellow-flat-color-theme.json"
+			},
+			{
+				"label": "Arctic Fox (Template Flat)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/template-flat-color-theme.json"
 			}
-		]
+		],
+		"configuration": {}
 	},
 	"__metadata": {
-		"id": "9b2c953d-6ad4-46d1-b18e-7e5992d1d8a6",
-		"publisherId": "1a680e61-b64e-4eff-bbbb-2085b0618f52",
-		"publisherDisplayName": "Ayrz",
-		"targetPlatform": "undefined",
-		"isApplicationScoped": false,
-		"updated": false,
-		"isPreReleaseVersion": false,
-		"installedTimestamp": 1666895868882,
-		"preRelease": false
-	},
-	"dependencies": {
-		"vscode": "^1.1.37"
+		"installedTimestamp": 1747244412078,
+		"targetPlatform": "windows",
+		"size": 5481781
 	}
 }
